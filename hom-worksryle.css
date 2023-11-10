@@ -1,0 +1,982 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    height: 15vh;
+}
+
+.header_menu {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_menu_ul {
+    list-style: square;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.header_menu_ul li {
+    font-size: 20px;
+}
+
+.header_button {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_button button {
+    width: 48%;
+    padding: 10px 0px;
+    font-size: 20px;
+    border: none;
+}
+
+.header_button button:first-child {
+    background-color: transparent;
+}
+
+.header_button button:last-child {
+    background-color: black;
+    color: #fff;
+}
+
+.header_menuicon {
+    display: none;
+}
+
+.section1 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: spabce-between;
+}
+
+.section1_text {
+    width: 50%;
+}
+
+.section1_text h1 {
+    font-size: 70px;
+}
+
+.section1_text p {
+    font-size: 20px;
+    width: 73%;
+    margin: 30px 0px;
+}
+
+.section1_text_form {
+    display: flex;
+    width: 50%;
+}
+
+.section1_text_form input {
+    width: 60%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.section1_text_form button {
+    width: 40%;
+    border: none;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.section1_text_image {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15vh;
+}
+
+.section1_image {
+    width: 40%;
+}
+
+.section1_image img {
+    width: 100%;
+}
+
+#section2 {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.container-img {
+    width: 45%;
+
+}
+
+.container-img img {
+    width: 99%;
+    height: 59%;
+
+}
+
+.container-text {
+    width: 50%;
+    height: 90%;
+
+}
+
+.containern-text h1 {
+    width: 90%;
+    height: 30%;
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1px;
+
+}
+
+.container-text h2 {
+    margin: 10px 0px;
+    width: 20%;
+    border: 2px solid gray;
+    color: #151515;
+    text-align: center;
+    font-family: Neue Machina;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+    text-transform: uppercase;
+
+}
+
+.container-text p {
+    width: 100%;
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0px;
+}
+
+.container-text ul {
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    list-style: square;
+    width: 95%;
+    margin: auto;
+}
+
+.container3{
+    width: 100%;
+    height: 140vh;
+}
+
+.row-content {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+}
+.How-It-Works {
+    width: 55%;
+    height: 100%;
+}
+.How-It-Works h3 {
+    width: 20%;
+    color: #151515;
+    text-align: center;
+    font-family: Neue Machina;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+    /* 185.714% */
+    text-transform: uppercase;
+    border: 2px solid gray;
+}
+
+.p {
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3px;
+}
+
+.Elements-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    height: 24%;
+}
+
+.Elements-text {
+    width: 77%;
+    height: 80%;
+
+    /* background-color: rgb(255, 0, 0); */
+
+}
+
+.Elements-text h1 {
+    width: 90%;
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.4px;
+}
+
+.Elements-text p {
+    width: 90%;
+
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 144.444% */
+    padding: 10px 0px;
+}
+
+.icon {
+    width: 120px;
+    height: 130px;
+}
+
+.icon img {
+    width: 98%;
+    height: 98%;
+    display: flex;
+    align-items: center;
+
+}
+
+.Elements-text p {
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 144.444% */
+}
+.section4 {
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.section-lift {
+    height: 80%;
+    width: 40%;
+    /* background-color: rgb(168, 127, 255); */
+
+}
+
+.section-lift img {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.section-right {
+    height: 80%;
+    width: 60%;
+    /* background-color: rgb(127, 255, 136); */
+    text-align: right;
+}
+
+.section-right h2 {
+    color: #151515;
+    text-align: right;
+    font-family: Neue Machina;
+    font-size: 60px;
+    font-style: normal;
+    margin-left: 207px;
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -2px;
+    width: 69%;
+    /* background-color: #7fffd4; */
+}
+
+.section-right p {
+    color: #151515;
+    text-align: right;
+    font-family: Neue Machina;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 144.444% */
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 332px;
+
+}
+
+.section-right button {
+    color: #151515;
+    text-align: center;
+    font-family: Neue Machina;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+    text-transform: uppercase;
+    border: 1px solid #151515;
+    background: transparent;
+    width: 103px;
+    height: 36px;
+    margin-right: 20px;
+}
+
+.section5 {
+    height: 100vh;
+    width: 90%;
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    height: 80%;
+    width: 32%;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid;
+
+}
+
+.content p {
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px auto;
+    width: 80%;
+
+
+
+    /* background-color: aliceblue; */
+
+}
+
+.content button {
+    display: flex;
+    width: 336px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+#s99 {
+    background-color: #151515;
+    color: white;
+}
+
+#s99 h5 {
+    left: 20px;
+    color: white;
+}
+
+#s99 h1 {
+
+    color: white;
+}
+
+#s99 h6 {
+
+    color: white;
+}
+
+#s99 p {
+    color: white;
+
+
+}
+
+.ul99 h6 {
+    color: #FFF;
+    font-family: Neue Machina;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    /* 144.444% */
+}
+
+#lu499 {
+    list-style: square;
+    /* background-color: rgb(3, 0, 174); */
+    width: 73%;
+    margin: auto;
+    margin-top: 34px;
+
+}
+
+#btn-49 {
+    margin-top: 121px;
+}
+#lu49 {
+    list-style: square;
+    /* background-color: rgb(3, 0, 174); */
+    width: 73%;
+    margin: auto;
+    margin-top: 60px;
+
+}
+
+#lu49 li {
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 144.444% */
+}
+
+.row {
+    height: 15%;
+    width: 70%;
+    margin: auto;
+    /* background-color: rgb(81, 255, 0); */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+}
+
+.row h5 {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    /* 140% */
+}
+
+.row h1 {
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -4px;
+
+}
+
+.row h6 {
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+}
+
+
+
+.section6 {
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+}
+
+.row-left {
+    /* background-color: rgb(219, 229, 222); */
+    width: 60%;
+    height: 100%;
+
+}
+
+.row-left button {
+    color: #151515;
+    text-align: center;
+    font-family: Neue Machina;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+    /* 185.714% */
+    text-transform: uppercase;
+    width: 76px;
+    height: 36px;
+    flex-shrink: 0;
+    border: 1px solid #151515;
+    background: #ffffff;
+    margin-left: 40px;
+    margin-top: 20px;
+
+
+
+}
+
+.row-left h1 {
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3px;
+    width: 90%;
+    margin: auto;
+}
+
+.row-left h6 {
+
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 144.444% */
+    width: 90%;
+    margin: auto;
+}
+
+.row-left p {
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 144.444% */
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.row-left h3 {
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    border-bottom: 2px solid;
+    width: 90%;
+    margin: auto;
+}
+
+.row-left h2 {
+    color: #151515;
+    font-family: Neue Machina;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    width: 90%;
+    margin: auto;
+}
+
+.row-right {
+    width: 40%;
+    height: 100%;
+}
+
+.row-right img {
+    margin-top: 70px;
+    width: 100%;
+    height: 70%;
+}
+
+footer {
+    height: 80vh;
+    width: 98%;
+    background-color:#151515;
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+}
+
+.content-left {
+    height: 90%;
+    width: 40%;
+    /* background-color: rgb(30, 31, 31); */
+}
+
+.content-left h2 {
+    color: #FFF;
+    font-family: Neue Machina;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    /* 140% */
+    width: 80%;
+    margin: auto;
+}
+
+.content-left img {
+    margin-left: 39px;
+    margin-top: 20px;
+}
+
+.foter-left p {
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+    color: #FFF;
+    font-family: Neue Machina;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 144.444% */
+}
+
+.content-icon {
+    height: 50px;
+    width: 40%;
+    font-size: 20px;
+    margin-top: 55px;
+    margin-left: 47px;
+    /* background-color: bisque; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.inpot {
+    width: 90%;
+    height: 40px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inpot button {
+    width: 30%;
+    height: 100%;
+    border: none;
+    flex-shrink: 0;
+    background-color: #FFF;
+}
+
+.inpot input {
+    background-color: #151515;
+    width: 60%;
+    height: 90%;
+    flex-shrink: 0;
+    color: #ffffff;
+}
+
+.content-right {
+    height: 90%;
+    width: 60%;
+    /* background-color: ?rgb(85, 255, 0); */
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.emali {
+    height: 300px;
+    width: 200px;
+    /* background-color: aqua; */
+
+}
+
+.emali h2 {
+    color: #FFF;
+    font-family: Neue Machina;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+}
+.c18{
+    color: #fff;
+    margin-left: 50px;
+}
+.emali p {
+    color: #FFF;
+    font-family: Neue Machina;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 144.444% */
+}
+
+@media (max-width: 400px) {
+    .header_menu_ul {
+        display: none;
+    }
+
+    .header_button {
+        display: none;
+
+    }
+
+    .header_menuicon {
+        display: inline;
+    }
+
+    .section1 {
+        flex-direction: column;
+    }
+
+    .section1_text {
+        width: 100%;
+    }
+
+    .section1_text h1 {
+        font-size: 32px;
+        width: 98%;
+        /* background-color: rgb(0, 249, 4); */
+
+    }
+
+    .section1_text p {
+        width: 100%;
+    }
+
+    .section1_text_form {
+        width: 100%;
+    }
+
+    .section1_text_image {
+        width: 100%;
+    }
+
+    .section1_image {
+        width: 100%;
+    }
+
+    #section2 {
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 250vh;
+        /* background-colo
+        r: rgb(255, 89, 0); */
+
+    }
+
+    .container-text {
+        width: 100%;
+        height: 50%;
+
+        /* font-size: 32px; */
+        /* background-color: rgb(60, 21, 0); */
+
+    }
+
+    .container-text h2 {
+        width: 40%;
+        display: flex;
+        width: 108px;
+        height: 36px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        margin-left: 20px;
+        border: 2px solid gray;
+
+        /* background-color: rgb(64, 57, 57); */
+
+    }
+
+    .container-text h1 {
+        width: 64%;
+        text-align: start;
+        padding: 6px 0px;
+        margin-left: 20px;
+        color: #151515;
+        font-family: Neue Machina;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -1.4px;
+        color: rgba(43, 71, 33, 0.962);
+        /* background-color: red; */
+
+    }
+
+    .container-text p {
+        width: 90%;
+        margin: auto;
+        color: #151515;
+        font-family: Neue Machina;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 144.444% */
+        /* background-color: rgb(250, 0, 0); */
+
+    }
+
+    .container-text li {
+        width: 90%;
+        margin: auto;
+        color: #151515;
+        font-family: Neue Machina;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 144.444% */
+        /* background-color: rgb(250, 0, 0); */
+
+    }
+
+    .container-img {
+        margin-top: 30px;
+        /* display: flex; */
+        width: 97%;
+        height: 30%;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        /* background-color: /rgb(250, 0, 0); */
+
+    }
+
+    .container-img img {
+        display: flex;
+        width: 90%;
+        height: 90%;
+
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        /* background-color: rgb(250, 0, 0); */
+
+    }
+
+
+    .section3 {
+        flex-direction: column-reverse;
+        /* display: block; */
+        /* background-color: aqua; */
+        height: 130vh;
+        margin-top: 900px;
+        width: 90%;
+
+
+        padding: 0;
+    }
+
+    .section-lift {
+        /* background-color: antiquewhite; */
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+    }
+
+    .section-lift img {
+        width: 100%;
+    }
+
+    .section-right {
+        /* background-color: rgb(255, 0, 0); */
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        padding: 0;
+        text-align: start;
+
+    }
+
+    .section-right button {
+        margin: 0;
+        padding: 0;
+
+
+    }
+
+    .section-right h2 {
+        color: #151515;
+        font-family: Neue Machina;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -1.4px;
+        text-align: start;
+
+        margin: 20px 0px;
+        padding: 0;
+        width: 80%;
+    }
+
+    .section-right p {
+        width: 50%;
+        margin: 0;
+        padding: 10px 0px;
+        width: 320px;
+        color: #151515;
+        font-family: Neue Machina;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        /* 144.444% */
+        text-align: start;
+
+    }
+}   
